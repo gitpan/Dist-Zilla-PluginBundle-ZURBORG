@@ -3,7 +3,7 @@ use warnings;
 package Pod::Weaver::PluginBundle::ZURBORG;
 # ABSTRACT: a bundle that add Bugs section to the Default bundle
 
-our $VERSION = '0.001'; # VERSION
+our $VERSION = '0.002'; # VERSION
 
 use namespace::autoclean;
 
@@ -65,13 +65,22 @@ Pod::Weaver::PluginBundle::ZURBORG - a bundle that add Bugs section to the Defau
 
 =head1 VERSION
 
-version 0.001
+version 0.002
 
 =head1 METHODS
 
 =head2 mvp_bundle_config
 
 Config method for Pod::Weaver
+
+=head1 BUGS
+
+Please report any bugs or feature requests on the bugtracker website
+https://github.com/zurborg/libdist-zilla-pluginbundle-zurborg-perl/issues
+
+When submitting a bug or request, please include a test-file or a
+patch to an existing test-file that illustrates the bug or desired
+feature.
 
 =head1 AUTHOR
 

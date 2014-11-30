@@ -5,7 +5,7 @@ package Dist::Zilla::PluginBundle::ZURBORG;
 
 use Moose;
 
-our $VERSION = '0.001'; # VERSION
+our $VERSION = '0.002'; # VERSION
 
 with 'Dist::Zilla::Role::PluginBundle::Easy';
 
@@ -48,8 +48,6 @@ sub configure {
 		['Git::Commit' => {
 		}],
 		['Git::Tag' => {
-		}],
-		['Git::Push' => {
 		}],
 		['Git::Contributors' => {
 		}],
@@ -108,13 +106,22 @@ Dist::Zilla::PluginBundle::ZURBORG - dzil plugin bundle of ZURBORG
 
 =head1 VERSION
 
-version 0.001
+version 0.002
 
 =head1 METHODS
 
 =head2 configure
 
 Configuration of Dist::Zilla::PluginBundle::Easy
+
+=head1 BUGS
+
+Please report any bugs or feature requests on the bugtracker website
+https://github.com/zurborg/libdist-zilla-pluginbundle-zurborg-perl/issues
+
+When submitting a bug or request, please include a test-file or a
+patch to an existing test-file that illustrates the bug or desired
+feature.
 
 =head1 AUTHOR
 

@@ -8,13 +8,27 @@ configure_requires:
   ExtUtils::MakeMaker: '0'
   perl: '5.006'
 dynamic_config: 0
-generated_by: 'Dist::Zilla version 5.025, CPAN::Meta::Converter version 2.143240'
+generated_by: 'Dist::Zilla version 5.026, CPAN::Meta::Converter version 2.143240'
 license: open_source
 meta-spec:
   url: http://module-build.sourceforge.net/META-spec-v1.4.html
   version: '1.4'
 name: Dist-Zilla-PluginBundle-ZURBORG
 requires:
+  Dist::Zilla::Plugin::ContributorsFile: '0'
+  Dist::Zilla::Plugin::Git::Contributors: '0'
+  Dist::Zilla::Plugin::GithubMeta: '0'
+  Dist::Zilla::Plugin::MinimumPerl: '0'
+  Dist::Zilla::Plugin::NextVersion::Semantic: '0'
+  Dist::Zilla::Plugin::OurPkgVersion: '0'
+  Dist::Zilla::Plugin::PodWeaver: '0'
+  Dist::Zilla::Plugin::PreviousVersion::Changelog: '0'
+  Dist::Zilla::Plugin::Signature: '0'
+  Dist::Zilla::Plugin::Test::CPAN::Changes: '0'
+  Dist::Zilla::Plugin::Test::Kwalitee::Extra: '0'
+  Dist::Zilla::Plugin::Test::Perl::Critic: '0'
+  Dist::Zilla::Plugin::TravisYML: '0'
+  Dist::Zilla::PluginBundle::Git: '0'
   Dist::Zilla::Role::PluginBundle::Easy: '0'
   Moose: '0'
   Pod::Weaver::Config::Assembler: '0'
@@ -22,7 +36,10 @@ requires:
   perl: '5.006'
   strict: '0'
   warnings: '0'
-resources: {}
-version: '0.001'
+resources:
+  bugtracker: https://github.com/zurborg/libdist-zilla-pluginbundle-zurborg-perl/issues
+  homepage: https://github.com/zurborg/libdist-zilla-pluginbundle-zurborg-perl
+  repository: https://github.com/zurborg/libdist-zilla-pluginbundle-zurborg-perl.git
+version: '0.002'
 x_contributors:
   - 'David Zurborg <port@david-zurb.org>'
